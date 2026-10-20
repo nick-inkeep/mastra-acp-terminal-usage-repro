@@ -1,0 +1,18 @@
+{
+  "name": "mastra-acp-terminal-usage-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node index.mjs mastra",
+    "control": "node index.mjs sdk"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@agentclientprotocol/sdk": "0.21.0",
+    "@mastra/acp": "0.4.2",
+    "@mastra/core": "1.78.0"
+  }
+}
